@@ -63,19 +63,23 @@ echo Test::printArray($arr);
 /**
  * Search
  */
-//Test::testLinearSearch($arr, $x);
-//Test::testLinearSearchFix($arr, $x);
+// Test::testLinearSearch($arr, $x);
+// Test::testLinearSearchFix($arr, $x);
 
 /**
  * Sort
  */
 $sort = new Sort();
-//$sort = $sort->interChangeSort($arr);
-//$sort = $sort->selectionSort($arr);
-$sort = $sort->bubbleSort($arr);
+// $sort = $sort->interChangeSort($arr);
+// $sort = $sort->selectionSort($arr);
+// $sort = $sort->bubbleSort($arr);
+// $sort = $sort->shakerSort($arr);
+// $sort = $sort->insertionSort($arr);
+// $sort = $sort->binaryInsertionSort($arr);
+$sort = $sort->shellSort($arr);
 
 echo "Mảng sau khi sắp xếp: ";
 echo Test::printArray($sort);
-//Test::testBinarySearch($sort, $x); //Tìm kiếm nhị phân
+// Test::testBinarySearch($sort, $x); //Tìm kiếm nhị phân
 
  ?>
